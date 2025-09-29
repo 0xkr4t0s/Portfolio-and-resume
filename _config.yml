@@ -1,0 +1,27 @@
+title: "Rawnak Yazdhani - Resume"
+description: "Professional resume showcasing cybersecurity and technical expertise"
+theme: minima
+baseurl: ""
+url: "https://0xkr4t0s.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _pages
